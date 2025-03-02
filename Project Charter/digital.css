@@ -1,0 +1,89 @@
+* {
+  font-family: sans-serif;
+}
+
+/* Chỉnh background của trang */
+body {
+  background: blue !important;
+}
+
+/* Chia trang thành 3 phần  */
+.digi-document {
+  margin: 2%;
+  width: 96%;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-auto-flow: column;
+  gap: 20px;
+}
+
+/* Chỉnh background cho từng section */
+.digi-document section {
+  background-color: #f2fbff;
+}
+
+/* Chỉnh icon */
+.digi-document i {
+  font-size: 2em;
+}
+
+/* Tiêu đề */
+.title {
+  color: blue;
+  font-weight: bold;
+  padding: 15px 10px;
+  border-bottom: solid gray 1px;
+}
+
+/* Chữ in đậm */
+.bold {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Hai cột dọc */
+.two-column {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+/* Chỉnh phần Goals */
+#goals > .container > .two-column {
+  border-bottom: 1px solid gainsboro;
+  padding: 1em 3em;
+}
+
+/* Chỉnh phần Timeline */
+#timeline {
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+
+#timeline h5 {
+  padding-left: 12px;
+  width: 50px;
+  aspect-ratio: 1 / 1; /* điều chỉnh tỉ lệ width/ height: ; */
+  align-content: center;
+  border: black 1px solid;
+  border-radius: 100%;
+  color: #fff;
+  background-color: #9e88fe;
+}
+
+.project-info {
+  padding-left: 10%;
+  border-bottom: dotted 1px cyan;
+  margin-bottom: 20px;
+}
+
+/* Chỉnh phần Scopes */
+#in,
+#out {
+  display: inline-block;
+  width: 45%;
+  margin-left: 3%;
+}
+
+#scopes p {
+  font-size: 20px;
+}

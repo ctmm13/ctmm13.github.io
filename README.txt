@@ -1,1 +1,1 @@
-This is a project about making CV
+Trang GitHub: https://ctmm13.github.io
